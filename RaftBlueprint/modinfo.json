@@ -1,0 +1,94 @@
+{
+  "name": "Raft Blueprint",
+  "author": "Aidanamite",
+  "description": "Allows you to save and load rafts as files",
+  "version": "b1.2.2",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/raft-blueprint/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "name": "Blueprints",
+      "text": "Saved Blueprints",
+      "type": "combobox",
+      "default": "[None]",
+      "values": [ "[None]" ],
+      "access": "globalworld"
+    },
+    {
+      "name": "load",
+      "text": "Load Raft",
+      "type": "button",
+      "access": "globalworld"
+    },
+    {
+      "name": "load2",
+      "text": "Load Raft (Don't Destroy Current)",
+      "type": "button",
+      "access": "globalworld"
+    },
+    {
+      "name": "saveName",
+      "text": "Save Raft Name",
+      "type": "input",
+      "access": "globalworld",
+      "max": 30
+    },
+    {
+      "name": "save",
+      "text": "Save Raft",
+      "type": "button",
+      "access": "globalworld"
+    },
+    {
+      "name": "browse",
+      "text": "Browse Blueprints",
+      "type": "button"
+    },
+    {
+      "name": "formula",
+      "text": "Center Mode",
+      "access": "globalworld",
+      "type": "combobox",
+      "default": "Volume",
+      "values": [ "Volume", "Mass" ]
+    },
+    {
+      "name": "center",
+      "text": "Center Raft",
+      "access": "globalworld",
+      "type": "button"
+    },
+    {
+      "name": "offset",
+      "text": "Amount",
+      "type": "input",
+      "default": "0",
+      "access": "globalworld",
+      "mode": "IntegerNumber"
+    },
+    {
+      "name": "movex",
+      "text": "X axis: Move Raft by [Amount]",
+      "access": "globalworld",
+      "type": "button"
+    },
+    {
+      "name": "movez",
+      "text": "Z axis: Move Raft by [Amount]",
+      "access": "globalworld",
+      "type": "button"
+    },
+    {
+      "name": "rotate",
+      "text": "Rotate Raft by [Amount] x 90 degrees",
+      "access": "globalworld",
+      "type": "button"
+    }
+  ]
+}
